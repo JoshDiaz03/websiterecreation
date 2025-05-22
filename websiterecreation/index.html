@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>INNOUT</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <img src="logo-2021.svg" alt="INNOUT Logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Employment</a>
+            </li>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <main>
+    <h1>WELCOME TO IN-N-OUT BURGER</h1>
+    <!--Carousel-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade container">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner container-fluid">
+        <div class="carousel-item active">
+          <img src="secretmenu.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="innoutburgers.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="innoutbeachcruise.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+  <!--Menu Table and Accordian-->
+
+  <table class="table container table-responsive table-striped">
+
+    <h2 id="menu">MENU</h2>
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Combos</th>
+        <th scope="col">Price</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>DOUBLE-DOUBLE</td>
+        <td>$9.85+TAX</td>
+        <td><img src="double-double.webp" alt="DOUBLE-DOUBLE" height="90px"></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>CHEESEBURGER</td>
+        <td>$8.15+TAX</td>
+        <td><img src="cheeseburgercombo.webp" alt="cheeseburger" height="90px"></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>HAMBURGER</td>
+        <td>$7.70+TAX</td>
+        <td><img src="hamburger-meal.png" alt="hamburger" height="90px"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!--Accordian-->
+  <section>
+    <div class="accordion container" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne">
+            FRENCH FRIES
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <strong>FRESH, HAND-CUT POTATOES PREPARED IN 100% SUNFLOWER OIL</strong>
+            <img src="fries.jpg" height="90px">
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            BEVERAGES
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>COKE PRODUCTS. ICE TEA. FRESHLY SQUEEZED PINK LEMONADE. MILK SHAKES.</strong>
+            <img src="beverages.png" height="90px" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            SECRET MENU
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse p-4">
+          <div class="accordion-body">
+            <ul>
+              <li>3X3</li>
+              <li>4X4</li>
+              <li>FLYING DUTCHMAN</li>
+              <li>GRILLED CHEESE</li>
+              <li>ANIMAL STYLE</li>
+              <li>PROTEIN STYLE</li>
+            </ul>
+            <img src="animalstyle.jpg" height="90px" alt="">
+            <img src="flying.jpg" height="90px" alt="">
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--History, Cards-grid-->
+  <section class="grid-card">
+    <h2>History</h2>
+    <div class="row container-fluid row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+      <div class="col">
+        <div class="card">
+          <img src="open1948.jpg" class="card-img-top" alt="harry snyder">
+          <div class="card-body">
+            <h5 class="card-title">1948</h5>
+            <p class="card-text">
+              IN-N-OUT first opened in 1948 by Harry Snyder in Southern California.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="logo-1954.jpg" class="card-img-top" alt="logo">
+          <div class="card-body">
+            <h5 class="card-title">1954</h5>
+            <p class="card-text">
+              Updated and current IN-N-OUT logo introduced.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="animalstyle-1961a.jpg" class="card-img-top" alt="burger">
+          <div class="card-body">
+            <h5 class="card-title">1961</h5>
+            <p class="card-text">First animal style burger created.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="hero-1973.jpg" class="card-img-top" alt="Skyscrapers">
+          <div class="card-body">
+            <h5 class="card-title">1973</h5>
+            <p class="card-text">25th Anniversary, with 13 locations open. All within L.A. County.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="milkshakes-1975a.jpg" class="card-img-top" alt="Skyscrapers">
+          <div class="card-body">
+            <h5 class="card-title">1975</h5>
+            <p class="card-text">Milkshakes added to menu.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="diningroom-1979.jpg" class="card-img-top" alt="Skyscrapers">
+          <div class="card-body">
+            <h5 class="card-title">1979</h5>
+            <p class="card-text">IN-N-OUT opens first restaurant with dinning room.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <form class="container" style="width: 26rem;">
+    <legend>General Inquiry</legend>
+    <!-- Name input -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="text" id="name" class="form-control" />
+      <label class="form-label" for="name">Name</label>
+    </div>
+
+    <!-- Email input -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <input type="email" id="email" class="form-control" />
+      <label class="form-label" for="email">Email address</label>
+    </div>
+
+    <!-- Message input -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <textarea class="form-control" id="message" rows="4"></textarea>
+      <label class="form-label" for="message">Message</label>
+    </div>
+
+    <!-- Checkbox -->
+    <div class="form-check d-flex justify-content-center mb-4">
+      <input class="form-check-input me-2" type="checkbox" value="" id="checkbox" checked />
+      <label class="form-check-label" for="checkbox">
+        Send me a copy of this message
+      </label>
+    </div>
+
+    <!-- Submit button -->
+    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
+  </form>
+
+  <figure>
+    <img class="container-fluid" src="bottombackground.jpg" alt="">
+  </figure>
+
+
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
