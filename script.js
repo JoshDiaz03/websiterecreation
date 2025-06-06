@@ -38,3 +38,4 @@ function validateCard(inputId){
 } else{
   console.log("Card not valid")
 }
+
