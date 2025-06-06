@@ -12,22 +12,29 @@ console.log(validateEmail("joshdiaz@email.com"))
 function searchLocations(){
     let location = ["California", "Nevada", "Arizona", "Texas"]
     const userInput = prompt('Type in your state name in full:')
-    console.log(location.includes(userInput))
+    
 } 
-//get feedback from form
- let feedback = [];
+console.log(location.includes(userInput))
 
-function addFeedback(message) {
-  feedback.push(message);
-  return feedback;
+
+
+
+
+//Shopping cart
+const cart= []
+function addToCart(){
+cart.push({item:1, name: "cellphone", price: 1000.00});
+cart.push({item: 2, name: "laptop", price: 1500.00})
 }
+console.log(cart)
 
-//calculate total
-const prices = [19.99, 29.99, 49.99];
+//card validation
 
-function getTotalPrice(prices) {
-  const total = prices.reduce((total, price) => total + price, 0);
-  return total * 1.1; 
+cardId = [1234,4567,7890]
+function validateCard(inputId){
+  
+  if(cardId.includes(inputId))
+    console.log("Card Accepted")
+} else{
+  console.log("Card not valid")
 }
-
-console.log(getTotalPrice(prices).toFixed(2))

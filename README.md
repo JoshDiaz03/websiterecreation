@@ -1,3 +1,2 @@
-This is a practice.
-THIS another practice.
-again another practice.
+# WEBSITE RECREATION PROJECT
+In this project, I recreated the IN-N-OUT Burger website. 
